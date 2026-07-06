@@ -4,6 +4,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title: { default: 'マッチングアプリナビ | 出会いアプリ比較・おすすめランキング', template: '%s | マッチングアプリナビ' },
   description: 'マッチングアプリを徹底比較。Pairs・with・Omiai・タップルなど人気アプリの料金・評判・特徴を詳しく解説。',
+  verification: { google: 'XcyMImXtiMlMj5NBeiKQBcD_Vqrw3EDW0TDFBVTAtaA' },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
