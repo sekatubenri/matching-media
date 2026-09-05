@@ -1,8 +1,7 @@
 name: Auto Generate Article
 
 on:
-  schedule:
-    - cron: '0 3 * * *'
+  # schedule disabled 2026-07-11 - low CPA niche
   workflow_dispatch:
 
 permissions:
